@@ -21,20 +21,11 @@
         android:textStyle="bold"
         tools:ignore="HardcodedText"/>
 
-    <ListView
+    <EditText
         android:id="@+id/mainPairedDevicesList"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-    </ListView>
-
-    <TextView
-        android:id="@+id/mainPairedDevicesNextCheck"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text="next_check"
-        android:textStyle="bold"
-        tools:ignore="HardcodedText"/>
+        android:layout_height="match_parent"
+        android:focusable="false"
+        android:gravity="top"
+        android:textSize="12sp" />
 </LinearLayout>
